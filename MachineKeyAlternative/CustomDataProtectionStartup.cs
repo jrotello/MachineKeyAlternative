@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.IO;
 using System.Security.Cryptography.X509Certificates;
 using Microsoft.AspNetCore.DataProtection;
@@ -9,7 +9,7 @@ namespace MachineKeyAlternative
 {
     public class CustomDataProtectionStartup : DataProtectionStartup
     {
-        private const string Thumbprint = "e92657a6a09e61715b74ee804e63be7aa84dcc91";
+        private const string Thumbprint = "B68662EF887F6FB70BB111A44ABD67CC085C3A3A";
 
         public override void ConfigureServices(IServiceCollection services)
         {
